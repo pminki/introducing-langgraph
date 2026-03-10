@@ -11,6 +11,8 @@ dependencies = [
     "langgraph-checkpoint-sqlite==2.0.11",
     "langgraph-cli[inmem]==0.4.0",
     "python-dotenv==1.1.1",
+    "langchain-google-genai",
+    "langchain_google_vertexai",
 ]
 
 [dependency-groups]
