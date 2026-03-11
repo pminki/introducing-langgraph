@@ -7,12 +7,13 @@ requires-python = ">=3.13"
 dependencies = [
     "grandalf==0.8",
     "langchain[openai]==0.3.27",
-    "langgraph==0.6.6",
-    "langgraph-checkpoint-sqlite==2.0.11",
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
     "langgraph-cli[inmem]==0.4.0",
     "python-dotenv==1.1.1",
     "langchain-google-genai",
     "langchain_google_vertexai",
+    "aiosqlite==0.21.0",
 ]
 
 [dependency-groups]
