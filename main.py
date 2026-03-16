@@ -158,3 +158,7 @@ memory = SqliteSaver(conn)
 # graph_builder 를 실제 실행 가능한 그래프로 컴파일합니다.
 # - name="mr_poet": 이 그래프에 붙이는 이름(디버깅/관리용)입니다.
 graph = graph_builder.compile(name="mr_poet")
+
+
+# 가상 환경 실행 명령어
+# uv run lanngraph dev
