@@ -14,6 +14,7 @@ dependencies = [
     "langchain-google-genai",
     "langchain_google_vertexai",
     "aiosqlite==0.21.0",
+    "langgraph-cli[inmem]>=0.4.0",
 ]
 
 [dependency-groups]
